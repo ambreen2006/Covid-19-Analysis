@@ -13100,7 +13100,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13117,7 +13117,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://covid.ourworldindata.org/data/ecdc/full_data.csv&#39;</span><span class="p">)</span>
@@ -13130,7 +13130,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;full_data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
@@ -13145,7 +13145,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[178]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;full_data.csv&#39;</span><span class="p">)</span>
@@ -13159,7 +13159,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[179]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13175,7 +13175,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[179]:</div>
 
 
 
@@ -13265,7 +13265,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[180]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rpopulation_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13281,7 +13281,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[42]:</div>
+    <div class="prompt output_prompt">Out[180]:</div>
 
 
 
@@ -13469,7 +13469,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[181]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data Types&quot;</span><span class="p">,</span> <span class="n">rdata</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
@@ -13508,7 +13508,7 @@ Columns with NaN Index([], dtype=&#39;object&#39;)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[182]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span> <span class="o">=</span> <span class="n">rdata</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
@@ -13528,7 +13528,7 @@ Columns with NaN Index([], dtype=&#39;object&#39;)
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[44]:</div>
+    <div class="prompt output_prompt">Out[182]:</div>
 
 
 
@@ -13551,7 +13551,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[183]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;date_fm&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">],</span> <span class="n">infer_datetime_format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -13564,7 +13564,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[184]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="o">.</span><span class="n">dtypes</span>
@@ -13580,7 +13580,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[184]:</div>
 
 
 
@@ -13604,7 +13604,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[185]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">latest</span> <span class="o">=</span> <span class="n">pdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -13621,7 +13621,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[47]:</div>
+    <div class="prompt output_prompt">Out[185]:</div>
 
 
 
@@ -13638,13 +13638,13 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[186]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pdata</span><span class="p">[</span><span class="n">pdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">latest</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span> <span class="o">=</span> <span class="n">rdata</span><span class="p">[</span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;World&#39;</span><span class="p">]</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pdata</span><span class="p">[</span><span class="n">pdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">latest</span><span class="p">]</span>
 <span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;date&#39;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">world_record</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;World&#39;</span><span class="p">]</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;location&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -13655,76 +13655,20 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[187]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="s1">&#39;World&#39;</span><span class="p">]</span>
-<span class="n">world_record</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[49]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>location</th>
-      <th>new_cases</th>
-      <th>new_deaths</th>
-      <th>total_cases</th>
-      <th>total_deaths</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>6811</td>
-      <td>World</td>
-      <td>38876</td>
-      <td>2200</td>
-      <td>416916</td>
-      <td>18565</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[188]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">max_total_cases</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -13756,7 +13700,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[189]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">population</span> <span class="o">=</span> <span class="n">rpopulation_data</span><span class="o">.</span><span class="n">filter</span><span class="p">([</span><span class="s1">&#39;Country Name&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">])</span>
@@ -13773,7 +13717,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[51]:</div>
+    <div class="prompt output_prompt">Out[189]:</div>
 
 
 
@@ -13819,7 +13763,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[190]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">population</span> <span class="o">=</span> <span class="n">population</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Country Name&#39;</span><span class="p">:</span><span class="s1">&#39;location&#39;</span><span class="p">})</span>
@@ -13837,7 +13781,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[52]:</div>
+    <div class="prompt output_prompt">Out[190]:</div>
 
 
 
@@ -13885,7 +13829,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[191]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">population</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">==</span> <span class="kc">False</span><span class="p">]</span>
@@ -13901,7 +13845,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[53]:</div>
+    <div class="prompt output_prompt">Out[191]:</div>
 
 
 
@@ -14000,7 +13944,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[192]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">div</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">population</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">]))</span>
@@ -14020,7 +13964,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[54]:</div>
+    <div class="prompt output_prompt">Out[192]:</div>
 
 
 
@@ -14126,7 +14070,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[193]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
@@ -14142,7 +14086,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[55]:</div>
+    <div class="prompt output_prompt">Out[193]:</div>
 
 
 
@@ -14173,7 +14117,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[194]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">all_rows</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">,</span> 
@@ -14208,9 +14152,164 @@ dtype: object</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="World-Record">World Record<a class="anchor-link" href="#World-Record">&#182;</a></h3>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[195]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span> <span class="o">=</span> <span class="n">world_record</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">])</span>
+<span class="n">world_record</span> <span class="o">=</span> <span class="n">world_record</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;date_fm&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[196]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span><span class="p">[</span><span class="n">world_record</span><span class="o">.</span><span class="n">index</span> <span class="o">==</span> <span class="n">latest</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[196]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>location</th>
+      <th>new_cases</th>
+      <th>new_deaths</th>
+      <th>total_cases</th>
+      <th>total_deaths</th>
+    </tr>
+    <tr>
+      <th>date_fm</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020-03-25</td>
+      <td>World</td>
+      <td>38876</td>
+      <td>2200</td>
+      <td>416916</td>
+      <td>18565</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[197]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
+
+<span class="n">world_record</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">,</span> <span class="s1">&#39;total_deaths&#39;</span><span class="p">],</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">ax1</span><span class="p">)</span>
+<span class="n">world_record</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="s1">&#39;total_deaths&#39;</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">ax2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[197]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fe459433110&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4AAAAOACAYAAABrNB1XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADh0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uMy4xLjEsIGh0dHA6Ly9tYXRwbG90bGliLm9yZy8QZhcZAAAgAElEQVR4nOzdeXTV1b338c/OPM8TJIQwE4YQIDJWnBgcqiK0VetUnxaf6rW17b290rm1w+VyXbW3Wmt9enudq1XUIg4IFaVaUAKEKYEQxgxkImSez9nPHznQiBACJPklOe/XWmflnP3b57e/iV3az9r7t7ex1goAAAAAMPj5OF0AAAAAAKBvEAABAAAAwEsQAAEAAADASxAAAQAAAMBLEAABAAAAwEsQAAEAAADAS/g5XUBPi4uLs2lpaU6XAQAAAACO2Lp1a6W1Nv5M1wZdAExLS1N2drbTZQAAAACAI4wxR852jSWgAAAAAOAlCIAAAAAA4CUIgAAAAADgJQbdM4Bn0tbWpqKiIjU3NztditcKCgpSSkqK/P39nS4FAAAA8FpeEQCLiooUHh6utLQ0GWOcLsfrWGt1/PhxFRUVacSIEU6XAwAAAHgtr1gC2tzcrNjYWMKfQ4wxio2NZQYWAAAAcJhXBEBJhD+H8fcHAAAAnOc1ARAAAAAAvB0BsA9UV1fr8ccf77LP4cOH9cILL5zzXocPH9akSZN6qjQAAAAAXoQA2Ad6MgACAAAAwIXyil1AO/vZG3uUW1Lbo/ecMDRCP7l+4lmvL1++XAcOHFBmZqYWLFggSXr77bdljNEPf/hD3XzzzVq+fLny8vKUmZmpu+66SzfddJPuuOMONTQ0SJIee+wxzZkz55y1uFwuPfjgg1q7dq2MMVq2bJm+8Y1v6KGHHtIbb7yhpqYmzZkzR3/4wx9kjNFvf/tbPfHEE/Lz89OECRP04osvqqGhQd/4xje0a9cutbe366c//aluvPFG7dmzR3fffbdaW1vldru1atUqjRkzpmf+iAAAAAB6ndcFQCesWLFCu3fvVk5OjlatWqUnnnhCO3bsUGVlpS655BLNmzdPK1as0MMPP6w1a9ZIkhobG7Vu3ToFBQVp//79uvXWW5WdnX3OsZ588kkdOnRI27dvl5+fn6qqqiRJ999/v3784x9Lku644w6tWbNG119/vVasWKFDhw4pMDBQ1dXVkqRf/vKXuvLKK/WnP/1J1dXVmjFjhubPn68nnnhCDzzwgG677Ta1trbK5XL10l8MAAAAQG/wugDY1UxdX/jwww916623ytfXV4mJibrsssu0ZcsWRUREfKpfW1ub7r//fuXk5MjX11f5+fnduv/69ev19a9/XX5+Hf9oY2JiJEkbNmzQypUr1djYqKqqKk2cOFHXX3+9MjIydNttt2nx4sVavHixJOndd9/V6tWr9fDDD0vqOEbj6NGjmj17tn75y1+qqKhIS5YsYfYPAAAAGGC8LgA6zVrbrX6PPPKIEhMTtWPHDrndbgUFBXX7/qcfudDc3Kz77rtP2dnZGjZsmH7605+eOpPvzTff1MaNG7V69Wr9/Oc/1549e2St1apVqzRu3LhP3Sc9PV0zZ87Um2++qUWLFumPf/yjrrzyym7VBQAAAKD3bT1yosvrbALTB8LDw1VXVydJmjdvnl566SW5XC5VVFRo48aNmjFjxqf6SFJNTY2GDBkiHx8fPfvss91ebrlw4UI98cQTam9vlyRVVVWdCntxcXGqr6/XK6+8Iklyu90qLCzUFVdcoZUrV6q6ulr19fVatGiRHn300VNhdfv27ZKkgwcPauTIkfrmN7+pG264QTt37uyZPxAAAACAi9bmcuvu//2kyz7MAPaB2NhYzZ07V5MmTdI111yjjIwMTZkyRcYYrVy5UklJSYqNjZWfn5+mTJmir3zlK7rvvvu0dOlSvfzyy7riiisUGhrarbG+9rWvKT8/XxkZGfL399eyZct0//33a9myZZo8ebLS0tJ0ySWXSOrYMOb2229XTU2NrLX69re/raioKP3oRz/St771LWVkZMhaq7S0NK1Zs0YvvfSSnnvuOfn7+yspKenUM4UAAAAAnPfxwSrVNrd32cd0d0niQJGVlWVP3ywlLy9P6enpDlWEk/jnAAAAAPSeH/91t/6SXah9v7h2q7U260x9WAIKAAAAAAOctVbv7inTvDHxXfYjAA5Qa9euVWZm5qdeN910k9NlAQAAAHDAzqIaldY2a+HEpC778QzgALVo0SItWrTI6TIAAAAA9APv5pbK18foqvEJXfZjBhAAAAAABrh395RpRlqMokMDuuxHAAQAAACAAexgRb32l9dr4cTEc/YlAAIAAADAALYut0yStGACARAAAAAABrW1e0o1KTlCKdEh5+xLAOwD1dXVevzxx7vsc/jwYb3wwgvnvNfhw4c1adKkbo99+eWX6/RzEbvrqaeeUklJyanPaWlpqqysvKB7AQAAAOh55bXN2l5YrYUTut7986RuB0BjjK8xZrsxZo3n8whjzMfGmP3GmJeMMQGe9kDP5wLP9bRO9/iep32fMWZRp/arPW0FxpjlndrPOMZA05MBsC+dHgABAAAA9C/r88plrbr1/J90fsdAPCApT1KE5/N/SnrEWvuiMeYJSV+V9HvPzxPW2tHGmFs8/W42xkyQdIukiZKGSlpvjBnrudfvJC2QVCRpizFmtbU2t4sxLtzby6XSXRd1i89Imixds+Ksl5cvX64DBw4oMzNTCxYs6Cjj7bdljNEPf/hD3XzzzVq+fLny8vKUmZmpu+66SzfddJPuuOMONTQ0SJIee+wxzZkz55ylNDU16e6771Zubq7S09PV1NR06tq7776rn/zkJ2ppadGoUaP0v//7vwoLC9NDDz2kN954Q01NTZozZ47+8Ic/aNWqVcrOztZtt92m4OBgbdq0SZL06KOP6o033lBbW5tefvlljR8/Xh988IEeeOABSZIxRhs3blR4ePgF/zkBAAAAdM+7uaVKjQnRuMTu/f/vbs0AGmNSJF0n6Y+ez0bSlZJe8XR5WtJiz/sbPZ/luX6Vp/+Nkl601rZYaw9JKpA0w/MqsNYetNa2SnpR0o3nGGNAWbFihUaNGqWcnBzNmjVLOTk52rFjh9avX6/vfve7OnbsmFasWKFLL71UOTk5+va3v62EhAStW7dO27Zt00svvaRvfvOb3Rrr97//vUJCQrRz50794Ac/0NatWyVJlZWV+sUvfqH169dr27ZtysrK0q9//WtJ0v33368tW7Zo9+7dampq0po1a/SFL3xBWVlZev7555WTk6Pg4GBJUlxcnLZt26Z7771XDz/8sCTp4Ycf1u9+9zvl5OTo73//+6m+AAAAAHpPXXOb/lFwXAsnJKojPp1bd2cAfyPp3yWdjJWxkqqtte2ez0WSkj3vkyUVSpK1tt0YU+Ppnyxpc6d7dv5O4WntM88xxqcYY+6RdI8kpaamdv2bdDFT1xc+/PBD3XrrrfL19VViYqIuu+wybdmyRREREZ/q19bWpvvvv185OTny9fVVfn5+t+6/cePGU2ExIyNDGRkZkqTNmzcrNzdXc+fOlSS1trZq9uzZkqQNGzZo5cqVamxsVFVVlSZOnKjrr7/+jPdfsmSJJGn69Ol69dVXJUlz587Vd77zHd12221asmSJUlJSzvOvAgAAAOB8vb+vQq0utxZN6t7zf1I3AqAx5vOSyq21W40xl59sPkNXe45rZ2s/0yxkV/0/22jtk5KelKSsrKwz9ukvrO1eeY888ogSExO1Y8cOud1uBQUFdXuMM6V/a60WLFigP//5z59qb25u1n333afs7GwNGzZMP/3pT9Xc3HzWewcGBkqSfH191d7ekc2XL1+u6667Tm+99ZZmzZql9evXa/z48d2uFwAAAMD5eze3TLGhAZqWGt3t73RnCehcSTcYYw6rY3nmleqYEYwyxpwMkCmSTu4WUiRpmCR5rkdKqurcftp3ztZe2cUYA0p4eLjq6uokSfPmzdNLL70kl8uliooKbdy4UTNmzPhUH0mqqanRkCFD5OPjo2effVYul6tbY82bN0/PP/+8JGn37t3auXOnJGnWrFn66KOPVFBQIElqbGxUfn7+qbAXFxen+vp6vfLKK6fudXpNZ3PgwAFNnjxZDz74oLKysrR3795u1QoAAADgwrS0u7Rhb7nmpyfK16d7yz+lbgRAa+33rLUp1to0dWzi8p619jZJGyR9wdPtLkl/9bxf7fksz/X3bMe012pJt3h2CR0haYykTyRtkTTGs+NngGeM1Z7vnG2MASU2NlZz587VpEmTtGnTJmVkZGjKlCm68sortXLlSiUlJSkjI0N+fn6aMmWKHnnkEd133316+umnNWvWLOXn5ys0NLRbY917772qr69XRkaGVq5cqRkzZkiS4uPj9dRTT+nWW29VRkaGZs2apb179yoqKkrLli3T5MmTtXjxYl1yySWn7vWVr3xFX//615WZmfmpzWRO95vf/EaTJk3SlClTFBwcrGuuuebi/mAAAAAAurT5YJXqW9q7vfvnSaa7SxIlybME9N+stZ83xoxUx4xgjKTtkm631rYYY4IkPStpqjpm/m6x1h70fP8Hkv6PpHZJ37LWvu1pv1Yds4q+kv5krf2lp/2MY3RVY1ZWlj393Lu8vDylp6d3+/dE7+CfAwAAANAzvv/aLr2+vVjbfrRAQf6+n7pmjNlqrc060/fO5xgIWWvfl/S+5/1BdezgeXqfZklfPMv3fynpl2dof0vSW2doP+MY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ET73uc+xd+9eTjrpJH7wgx8wePBgvvCFL/DLX/6S+vp6LrjgAv75n/+Z++67jwULFvDhD3+YAQMG8OSTTwLwzW9+k1/+8pc0NDTwk5/8hFNPPZXf/va3fPKTnwQKJ3t54oknGDJkSKffzxbuAZQkSZLU49x2222cdNJJLFy4kPPPP5+FCxfy/PPP8+ijj/JXf/VXrF27lttuu42LLrqIhQsX8ud//ueMHTuWuXPn8uyzz3Lvvffyp3/6p0f0XN/+9rcZOHAgL7zwAp/5zGd45plnANi0aRNf/OIXefTRR3n22WeZNWsWX/va1wC45ZZbmD9/PosWLaK+vp5f/epXvP/972fWrFncddddLFy4kAEDBgAwevRonn32WW6++Wa+8pWvAPCVr3yFb33rWyxcuJDf/e53+/seK/cASpIkSTomHe2pK4V///d/57rrrqO6uppx48bxtre9jfnz5zN06NCD+jU0NHDLLbewcOFCqqureeWVV45o/U888cT+sHjmmWdy5plnAvDUU0+xZMkSLrzwQgD27dvHW97yFgAef/xxvvzlL7N79242b97M6aefzrvf/e4213/NNdcAcM455/Czn/0MgAsvvJBPfepTfPjDH+aaa65h4sSJR/mutM0AKEmSJKlHSykdUb+vf/3rjBs3jueff57m5mb69+9/xM/R1jX3UkrMmTOHu++++6D2PXv28IlPfIIFCxYwadIkPv/5z3d4wfZ+/foBUF1dTWNjI1AY4vqud72LBx54gPPPP59HH32UU0899bB1/vDJVR0udwioJEmSpB5nyJAh7NixA4CLL76Ye++9l6amJjZu3MgTTzzB7NmzD+oDsG3bNo477jiqqqr40Y9+RFNT0xE918UXX8xdd90FwKJFi3jhhRcAOP/88/mP//gPli9fDsDu3bt55ZVX9oe90aNHs3PnTn7605+2WXdHXn31Vc444ww+/elPM2vWLF566aXDPmZPQxNf/LelHfZxD6AkSZKkHmfUqFFceOGFzJgxgyuvvJIzzzyTs846i4jgy1/+MuPHj2fUqFHU1NRw1llnccMNN/CJT3yC973vffzkJz/h0ksvZdCgQUf0XDfffDMf+9jHOPPMM5k5cyazZ88GYMyYMdxxxx1cd9117N27F4AvfvGLTJs2jT/+4z/mjDPOYPLkyZx77rn713XDDTfw8Y9//KCT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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Highest-total-cases-per-capita,-top-5">Highest total cases per capita, top 5<a class="anchor-link" href="#Highest-total-cases-per-capita,-top-5">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[198]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest5</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">)</span>
@@ -14227,7 +14326,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[57]:</div>
+    <div class="prompt output_prompt">Out[198]:</div>
 
 
 
@@ -14331,55 +14430,9 @@ dtype: object</pre>
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Highest-total-cases-per-capita,-top-5">Highest total cases per capita, top 5<a class="anchor-link" href="#Highest-total-cases-per-capita,-top-5">&#182;</a></h3>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest5</span><span class="p">[</span><span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[58]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>location
-San Marino        0.005535
-Faeroe Islands    0.002516
-Andorra           0.002130
-Iceland           0.001833
-Luxembourg        0.001808
-Name: total_cases_per_capita, dtype: float64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[199]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_cases_pc_fig</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span> 
@@ -14418,7 +14471,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[200]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest5</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">population</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;location&#39;</span><span class="p">)</span>
@@ -14431,7 +14484,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[201]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_for_table</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;total_deaths_per_capita&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">,</span> <span class="s1">&#39;new_deaths&#39;</span><span class="p">,</span> <span class="s1">&#39;total_deaths&#39;</span><span class="p">])</span>
@@ -14450,7 +14503,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[61]:</div>
+    <div class="prompt output_prompt">Out[201]:</div>
 
 
 
@@ -14541,7 +14594,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[202]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">)</span>
@@ -14558,7 +14611,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[62]:</div>
+    <div class="prompt output_prompt">Out[202]:</div>
 
 
 
@@ -14664,7 +14717,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[203]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases</span><span class="p">[</span><span class="s1">&#39;deaths_per_total&#39;</span><span class="p">]</span>
@@ -14680,7 +14733,7 @@ Name: total_cases_per_capita, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[63]:</div>
+    <div class="prompt output_prompt">Out[203]:</div>
 
 
 
@@ -14703,7 +14756,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[204]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases_pop</span> <span class="o">=</span> <span class="n">deaths_per_cases</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">population</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;location&#39;</span><span class="p">)</span>
@@ -14716,7 +14769,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[205]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases_pop</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
@@ -14756,7 +14809,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[206]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_for_table</span> <span class="o">=</span> <span class="n">deaths_per_cases_pop</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;new_cases&#39;</span><span class="p">,</span> <span class="s1">&#39;new_deaths&#39;</span><span class="p">,</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">,</span> <span class="s1">&#39;total_deaths_per_capita&#39;</span><span class="p">])</span>
@@ -14775,7 +14828,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[66]:</div>
+    <div class="prompt output_prompt">Out[206]:</div>
 
 
 
@@ -14859,7 +14912,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[207]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
@@ -14896,7 +14949,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 
 <div class="output_svg output_subarea ">
-<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="450" style="" viewBox="0 0 700 450"><rect x="0" y="0" width="700" height="450" style="fill: rgb(255, 255, 255); fill-opacity: 1;"/><defs id="defs-7a543d"><g class="clips"/><g class="gradients"/></defs><g class="bglayer"/><g class="layer-below"><g class="imagelayer"/><g class="shapelayer"/></g><g class="cartesianlayer"/><g class="polarlayer"/><g class="ternarylayer"/><g class="geolayer"/><g class="funnelarealayer"/><g class="pielayer"/><g class="treemaplayer"/><g class="sunburstlayer"/><g class="glimages"/><g class="table" overflow="visible" width="700" height="450" transform="translate(0,0)" style="box-sizing: content-box; position: absolute; left: 0px; overflow: visible; shape-rendering: crispedges; pointer-events: all;"><g class="table-control-view" transform="translate(80 100)" clip-path="url('#clip7a543d_scrollAreaBottomClip_9e23a5true')" style="box-sizing: content-box;"><rect class="scroll-background" fill="none" width="540" height="270"/><g class="y-column" transform="translate(0 0)" clip-path="url('#clip7a543d_columnBoundaryClippath_9e23a5true_0')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iran</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Indonesia</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iraq</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Italy</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">San Marino</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Location</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip7a543d_columnBoundaryClippath_9e23a5true_0"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(108 0)" clip-path="url('#clip7a543d_columnBoundaryClippath_9e23a5true_1')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">24811</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">686</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">316</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">69176</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">187</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">Total Cases</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip7a543d_columnBoundaryClippath_9e23a5true_1"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(216 0)" clip-path="url('#clip7a543d_columnBoundaryClippath_9e23a5true_2')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">1934</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">55</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">27</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">6820</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">21</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Total Deaths</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip7a543d_columnBoundaryClippath_9e23a5true_2"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(324 0)" clip-path="url('#clip7a543d_columnBoundaryClippath_9e23a5true_3')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0779</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0802</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0854</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0986</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.1123</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Deaths per total</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip7a543d_columnBoundaryClippath_9e23a5true_3"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(432 0)" clip-path="url('#clip7a543d_columnBoundaryClippath_9e23a5true_4')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">81800269</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">267663435</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">38433600</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">60431283</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">33785</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">population</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip7a543d_columnBoundaryClippath_9e23a5true_4"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><clipPath class="scroll-area-clip" id="clip7a543d_scrollAreaBottomClip_9e23a5true"><rect class="scroll-area-clip-rect" x="-45" y="-5" fill="none" width="630" height="275"/></clipPath></g></g><defs id="topdefs-7a543d"><g class="clips"/></defs><g class="layer-above"><g class="imagelayer"/><g class="shapelayer"/></g><g class="infolayer"><g class="g-gtitle"/></g></svg>
+<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="450" style="" viewBox="0 0 700 450"><rect x="0" y="0" width="700" height="450" style="fill: rgb(255, 255, 255); fill-opacity: 1;"/><defs id="defs-b055e0"><g class="clips"/><g class="gradients"/></defs><g class="bglayer"/><g class="layer-below"><g class="imagelayer"/><g class="shapelayer"/></g><g class="cartesianlayer"/><g class="polarlayer"/><g class="ternarylayer"/><g class="geolayer"/><g class="funnelarealayer"/><g class="pielayer"/><g class="treemaplayer"/><g class="sunburstlayer"/><g class="glimages"/><g class="table" overflow="visible" width="700" height="450" transform="translate(0,0)" style="box-sizing: content-box; position: absolute; left: 0px; overflow: visible; shape-rendering: crispedges; pointer-events: all;"><g class="table-control-view" transform="translate(80 100)" clip-path="url('#clipb055e0_scrollAreaBottomClip_993273true')" style="box-sizing: content-box;"><rect class="scroll-background" fill="none" width="540" height="270"/><g class="y-column" transform="translate(0 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_0')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iran</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Indonesia</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iraq</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Italy</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">San Marino</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Location</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_0"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(108 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_1')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">24811</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">686</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">316</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">69176</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">187</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">Total Cases</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_1"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(216 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_2')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">1934</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">55</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">27</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">6820</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">21</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Total Deaths</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_2"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(324 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_3')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0779</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0802</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0854</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0986</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.1123</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Deaths per total</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_3"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(432 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_4')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">81800269</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">267663435</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">38433600</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">60431283</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">33785</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">population</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_4"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><clipPath class="scroll-area-clip" id="clipb055e0_scrollAreaBottomClip_993273true"><rect class="scroll-area-clip-rect" x="-45" y="-5" fill="none" width="630" height="275"/></clipPath></g></g><defs id="topdefs-b055e0"><g class="clips"/></defs><g class="layer-above"><g class="imagelayer"/><g class="shapelayer"/></g><g class="infolayer"><g class="g-gtitle"/></g></svg>
 </div>
 
 </div>
@@ -14914,7 +14967,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[208]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filter_countries</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Canada&#39;</span><span class="p">,</span><span class="s1">&#39;United States&#39;</span><span class="p">,</span> <span class="s1">&#39;Pakistan&#39;</span><span class="p">]</span>
@@ -14927,7 +14980,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[209]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">filter_countries</span><span class="p">)]</span>
@@ -14943,7 +14996,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[69]:</div>
+    <div class="prompt output_prompt">Out[209]:</div>
 
 
 
@@ -15029,7 +15082,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[210]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">earliest</span> <span class="o">=</span> <span class="s1">&#39;2020-03-01&#39;</span>
@@ -15043,7 +15096,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[211]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
@@ -15090,7 +15143,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[212]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">percapita</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">country_subset</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">])</span>
@@ -15105,7 +15158,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[213]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
@@ -15145,7 +15198,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[214]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_cases_us</span> <span class="o">=</span> <span class="n">country_subset</span><span class="p">[</span><span class="n">country_subset</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Canada&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;date_fm&#39;</span><span class="p">])</span>
@@ -15162,7 +15215,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[82]:</div>
+    <div class="prompt output_prompt">Out[214]:</div>
 
 
 
