@@ -13100,7 +13100,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13117,7 +13117,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://covid.ourworldindata.org/data/ecdc/full_data.csv&#39;</span><span class="p">)</span>
@@ -13130,7 +13130,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;full_data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
@@ -13145,7 +13145,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[178]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;full_data.csv&#39;</span><span class="p">)</span>
@@ -13159,10 +13159,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[179]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13175,7 +13175,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[179]:</div>
+    <div class="prompt output_prompt">Out[52]:</div>
 
 
 
@@ -13208,49 +13208,49 @@ div#notebook {
   </thead>
   <tbody>
     <tr>
-      <td>0</td>
-      <td>2019-12-31</td>
-      <td>Afghanistan</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
+      <td>6819</td>
+      <td>2020-03-21</td>
+      <td>Zimbabwe</td>
       <td>1</td>
-      <td>2020-01-01</td>
-      <td>Afghanistan</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
+      <td>6820</td>
+      <td>2020-03-22</td>
+      <td>Zimbabwe</td>
+      <td>1</td>
+      <td>0</td>
       <td>2</td>
-      <td>2020-01-02</td>
-      <td>Afghanistan</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>2020-01-03</td>
-      <td>Afghanistan</td>
+      <td>6821</td>
+      <td>2020-03-23</td>
+      <td>Zimbabwe</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
+      <td>2</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>2020-01-04</td>
-      <td>Afghanistan</td>
+      <td>6822</td>
+      <td>2020-03-24</td>
+      <td>Zimbabwe</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6823</td>
+      <td>2020-03-25</td>
+      <td>Zimbabwe</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -13265,7 +13265,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[180]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rpopulation_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13281,7 +13281,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[180]:</div>
+    <div class="prompt output_prompt">Out[53]:</div>
 
 
 
@@ -13469,7 +13469,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[181]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data Types&quot;</span><span class="p">,</span> <span class="n">rdata</span><span class="o">.</span><span class="n">dtypes</span><span class="p">)</span>
@@ -13508,7 +13508,7 @@ Columns with NaN Index([], dtype=&#39;object&#39;)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[182]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span> <span class="o">=</span> <span class="n">rdata</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
@@ -13528,7 +13528,7 @@ Columns with NaN Index([], dtype=&#39;object&#39;)
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[182]:</div>
+    <div class="prompt output_prompt">Out[55]:</div>
 
 
 
@@ -13551,7 +13551,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[183]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;date_fm&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">],</span> <span class="n">infer_datetime_format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -13564,7 +13564,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[184]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rdata</span><span class="o">.</span><span class="n">dtypes</span>
@@ -13580,7 +13580,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[184]:</div>
+    <div class="prompt output_prompt">Out[57]:</div>
 
 
 
@@ -13604,7 +13604,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[185]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">latest</span> <span class="o">=</span> <span class="n">pdata</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -13621,7 +13621,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[185]:</div>
+    <div class="prompt output_prompt">Out[58]:</div>
 
 
 
@@ -13638,7 +13638,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[186]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span> <span class="o">=</span> <span class="n">rdata</span><span class="p">[</span><span class="n">rdata</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;World&#39;</span><span class="p">]</span>
@@ -13655,7 +13655,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[187]:</div>
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="s1">&#39;World&#39;</span><span class="p">]</span>
@@ -13668,7 +13668,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[188]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">max_total_cases</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -13700,7 +13700,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[189]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">population</span> <span class="o">=</span> <span class="n">rpopulation_data</span><span class="o">.</span><span class="n">filter</span><span class="p">([</span><span class="s1">&#39;Country Name&#39;</span><span class="p">,</span> <span class="s1">&#39;2018&#39;</span><span class="p">])</span>
@@ -13717,7 +13717,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[189]:</div>
+    <div class="prompt output_prompt">Out[62]:</div>
 
 
 
@@ -13763,7 +13763,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[190]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">population</span> <span class="o">=</span> <span class="n">population</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Country Name&#39;</span><span class="p">:</span><span class="s1">&#39;location&#39;</span><span class="p">})</span>
@@ -13781,7 +13781,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[190]:</div>
+    <div class="prompt output_prompt">Out[63]:</div>
 
 
 
@@ -13829,7 +13829,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[191]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">population</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">==</span> <span class="kc">False</span><span class="p">]</span>
@@ -13845,7 +13845,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[191]:</div>
+    <div class="prompt output_prompt">Out[64]:</div>
 
 
 
@@ -13944,7 +13944,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[192]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">div</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">population</span><span class="p">[</span><span class="s1">&#39;2018&#39;</span><span class="p">]))</span>
@@ -13964,7 +13964,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[192]:</div>
+    <div class="prompt output_prompt">Out[65]:</div>
 
 
 
@@ -14070,7 +14070,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[193]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
@@ -14086,7 +14086,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[193]:</div>
+    <div class="prompt output_prompt">Out[66]:</div>
 
 
 
@@ -14117,7 +14117,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[194]:</div>
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">all_rows</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">,</span> 
@@ -14161,7 +14161,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[195]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span> <span class="o">=</span> <span class="n">world_record</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">])</span>
@@ -14175,7 +14175,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[196]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">world_record</span><span class="p">[</span><span class="n">world_record</span><span class="o">.</span><span class="n">index</span> <span class="o">==</span> <span class="n">latest</span><span class="p">]</span>
@@ -14191,7 +14191,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[196]:</div>
+    <div class="prompt output_prompt">Out[69]:</div>
 
 
 
@@ -14251,7 +14251,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[197]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
@@ -14270,13 +14270,13 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[197]:</div>
+    <div class="prompt output_prompt">Out[70]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fe459433110&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7efc21e8b5d0&gt;</pre>
 </div>
 
 </div>
@@ -14309,7 +14309,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[198]:</div>
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest5</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">)</span>
@@ -14326,7 +14326,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[198]:</div>
+    <div class="prompt output_prompt">Out[71]:</div>
 
 
 
@@ -14432,7 +14432,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[199]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_cases_pc_fig</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span> 
@@ -14471,7 +14471,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[200]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest5</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">population</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;location&#39;</span><span class="p">)</span>
@@ -14484,7 +14484,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[201]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_for_table</span> <span class="o">=</span> <span class="n">largest5</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;total_deaths_per_capita&#39;</span><span class="p">,</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">,</span> <span class="s1">&#39;new_deaths&#39;</span><span class="p">,</span> <span class="s1">&#39;total_deaths&#39;</span><span class="p">])</span>
@@ -14503,7 +14503,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[201]:</div>
+    <div class="prompt output_prompt">Out[74]:</div>
 
 
 
@@ -14594,7 +14594,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[202]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;total_cases&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">)</span>
@@ -14611,7 +14611,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[202]:</div>
+    <div class="prompt output_prompt">Out[75]:</div>
 
 
 
@@ -14717,7 +14717,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[203]:</div>
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases</span><span class="p">[</span><span class="s1">&#39;deaths_per_total&#39;</span><span class="p">]</span>
@@ -14733,7 +14733,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[203]:</div>
+    <div class="prompt output_prompt">Out[76]:</div>
 
 
 
@@ -14756,7 +14756,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[204]:</div>
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases_pop</span> <span class="o">=</span> <span class="n">deaths_per_cases</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">population</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;location&#39;</span><span class="p">)</span>
@@ -14769,7 +14769,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[205]:</div>
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">deaths_per_cases_pop</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="s1">&#39;deaths_per_total&#39;</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
@@ -14809,7 +14809,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[206]:</div>
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_for_table</span> <span class="o">=</span> <span class="n">deaths_per_cases_pop</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;new_cases&#39;</span><span class="p">,</span> <span class="s1">&#39;new_deaths&#39;</span><span class="p">,</span> <span class="s1">&#39;total_cases_per_capita&#39;</span><span class="p">,</span> <span class="s1">&#39;total_deaths_per_capita&#39;</span><span class="p">])</span>
@@ -14828,7 +14828,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[206]:</div>
+    <div class="prompt output_prompt">Out[79]:</div>
 
 
 
@@ -14912,7 +14912,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[207]:</div>
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
@@ -14949,7 +14949,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 
 <div class="output_svg output_subarea ">
-<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="450" style="" viewBox="0 0 700 450"><rect x="0" y="0" width="700" height="450" style="fill: rgb(255, 255, 255); fill-opacity: 1;"/><defs id="defs-b055e0"><g class="clips"/><g class="gradients"/></defs><g class="bglayer"/><g class="layer-below"><g class="imagelayer"/><g class="shapelayer"/></g><g class="cartesianlayer"/><g class="polarlayer"/><g class="ternarylayer"/><g class="geolayer"/><g class="funnelarealayer"/><g class="pielayer"/><g class="treemaplayer"/><g class="sunburstlayer"/><g class="glimages"/><g class="table" overflow="visible" width="700" height="450" transform="translate(0,0)" style="box-sizing: content-box; position: absolute; left: 0px; overflow: visible; shape-rendering: crispedges; pointer-events: all;"><g class="table-control-view" transform="translate(80 100)" clip-path="url('#clipb055e0_scrollAreaBottomClip_993273true')" style="box-sizing: content-box;"><rect class="scroll-background" fill="none" width="540" height="270"/><g class="y-column" transform="translate(0 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_0')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iran</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Indonesia</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iraq</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Italy</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">San Marino</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Location</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_0"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(108 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_1')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">24811</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">686</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">316</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">69176</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">187</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">Total Cases</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_1"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(216 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_2')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">1934</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">55</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">27</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">6820</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">21</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Total Deaths</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_2"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(324 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_3')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0779</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0802</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0854</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0986</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.1123</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Deaths per total</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_3"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(432 0)" clip-path="url('#clipb055e0_columnBoundaryClippath_993273true_4')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">81800269</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">267663435</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">38433600</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">60431283</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">33785</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">population</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clipb055e0_columnBoundaryClippath_993273true_4"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><clipPath class="scroll-area-clip" id="clipb055e0_scrollAreaBottomClip_993273true"><rect class="scroll-area-clip-rect" x="-45" y="-5" fill="none" width="630" height="275"/></clipPath></g></g><defs id="topdefs-b055e0"><g class="clips"/></defs><g class="layer-above"><g class="imagelayer"/><g class="shapelayer"/></g><g class="infolayer"><g class="g-gtitle"/></g></svg>
+<svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="450" style="" viewBox="0 0 700 450"><rect x="0" y="0" width="700" height="450" style="fill: rgb(255, 255, 255); fill-opacity: 1;"/><defs id="defs-69eb57"><g class="clips"/><g class="gradients"/></defs><g class="bglayer"/><g class="layer-below"><g class="imagelayer"/><g class="shapelayer"/></g><g class="cartesianlayer"/><g class="polarlayer"/><g class="ternarylayer"/><g class="geolayer"/><g class="funnelarealayer"/><g class="pielayer"/><g class="treemaplayer"/><g class="sunburstlayer"/><g class="glimages"/><g class="table" overflow="visible" width="700" height="450" transform="translate(0,0)" style="box-sizing: content-box; position: absolute; left: 0px; overflow: visible; shape-rendering: crispedges; pointer-events: all;"><g class="table-control-view" transform="translate(80 100)" clip-path="url('#clip69eb57_scrollAreaBottomClip_09c31dtrue')" style="box-sizing: content-box;"><rect class="scroll-background" fill="none" width="540" height="270"/><g class="y-column" transform="translate(0 0)" clip-path="url('#clip69eb57_columnBoundaryClippath_09c31dtrue_0')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iran</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Indonesia</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Iraq</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Italy</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">San Marino</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">Location</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip69eb57_columnBoundaryClippath_09c31dtrue_0"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(108 0)" clip-path="url('#clip69eb57_columnBoundaryClippath_09c31dtrue_1')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">24811</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">686</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">316</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">69176</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">187</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" x="0" y="0" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">Total Cases</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip69eb57_columnBoundaryClippath_09c31dtrue_1"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(216 0)" clip-path="url('#clip69eb57_columnBoundaryClippath_09c31dtrue_2')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">1934</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">55</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">27</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">6820</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">21</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Total Deaths</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip69eb57_columnBoundaryClippath_09c31dtrue_2"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(324 0)" clip-path="url('#clip69eb57_columnBoundaryClippath_09c31dtrue_3')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0779</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0802</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0854</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.0986</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">0.1123</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;" x="0" y="0">Deaths per total</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip69eb57_columnBoundaryClippath_09c31dtrue_3"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><g class="y-column" transform="translate(432 0)" clip-path="url('#clip69eb57_columnBoundaryClippath_09c31dtrue_4')"><g class="column-block" id="cells1" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"><g class="column-cell" transform="translate(0 28)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">81800269</text></g></g><g class="column-cell" transform="translate(0 48)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">267663435</text></g></g><g class="column-cell" transform="translate(0 68)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">38433600</text></g></g><g class="column-cell" transform="translate(0 88)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">60431283</text></g></g><g class="column-cell" transform="translate(0 108)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(235, 240, 248); fill-opacity: 1;" height="20"/><g class="cell-text-holder" transform="translate(8 8)" text-anchor="start" style="shape-rendering: geometricprecision;"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">33785</text></g></g></g></g><g class="column-block" id="cells2" style="cursor: default;" transform="translate(0 0)"><g class="column-cells"/></g><g class="column-block" id="header" style="cursor: ew-resize;"><g class="column-cells"><g class="column-cell" transform="translate(0 0)"><rect class="cell-rect" width="108" stroke-width="1" style="stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(200, 212, 227); fill-opacity: 1;" height="28"/><g class="cell-text-holder" style="shape-rendering: geometricprecision;" transform="translate(8 8)" text-anchor="start"><text class="cell-text" dy="0.75em" style="cursor: auto; font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1;">population</text></g></g></g></g><g class="column-boundary"/><clipPath class="column-boundary-clippath" id="clip69eb57_columnBoundaryClippath_09c31dtrue_4"><rect class="column-boundary-rect" fill="none" width="110" height="277" x="-1" y="-1"/></clipPath></g><clipPath class="scroll-area-clip" id="clip69eb57_scrollAreaBottomClip_09c31dtrue"><rect class="scroll-area-clip-rect" x="-45" y="-5" fill="none" width="630" height="275"/></clipPath></g></g><defs id="topdefs-69eb57"><g class="clips"/></defs><g class="layer-above"><g class="imagelayer"/><g class="shapelayer"/></g><g class="infolayer"><g class="g-gtitle"/></g></svg>
 </div>
 
 </div>
@@ -14967,7 +14967,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[208]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filter_countries</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Canada&#39;</span><span class="p">,</span><span class="s1">&#39;United States&#39;</span><span class="p">,</span> <span class="s1">&#39;Pakistan&#39;</span><span class="p">]</span>
@@ -14980,7 +14980,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[209]:</div>
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">filter_countries</span><span class="p">)]</span>
@@ -14996,7 +14996,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[209]:</div>
+    <div class="prompt output_prompt">Out[82]:</div>
 
 
 
@@ -15082,7 +15082,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[210]:</div>
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">earliest</span> <span class="o">=</span> <span class="s1">&#39;2020-03-01&#39;</span>
@@ -15096,7 +15096,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[211]:</div>
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
@@ -15143,7 +15143,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[212]:</div>
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">percapita</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">country_subset</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">])</span>
@@ -15158,7 +15158,7 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[213]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
@@ -15198,11 +15198,11 @@ Name: deaths_per_total, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[214]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_cases_us</span> <span class="o">=</span> <span class="n">country_subset</span><span class="p">[</span><span class="n">country_subset</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Canada&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;date_fm&#39;</span><span class="p">])</span>
-<span class="n">new_cases_us</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_cases_selected_country</span> <span class="o">=</span> <span class="n">country_subset</span><span class="p">[</span><span class="n">country_subset</span><span class="p">[</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;United States&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;date_fm&#39;</span><span class="p">])</span>
+<span class="n">new_cases_selected_country</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="n">n</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15215,7 +15215,7 @@ Name: deaths_per_total, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[214]:</div>
+    <div class="prompt output_prompt">Out[89]:</div>
 
 
 
@@ -15248,229 +15248,94 @@ Name: deaths_per_total, dtype: float64</pre>
   </thead>
   <tbody>
     <tr>
-      <td>1152</td>
-      <td>2020-03-01</td>
-      <td>Canada</td>
-      <td>4</td>
-      <td>0</td>
-      <td>20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1153</td>
-      <td>2020-03-02</td>
-      <td>Canada</td>
-      <td>4</td>
-      <td>0</td>
-      <td>24</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1154</td>
-      <td>2020-03-03</td>
-      <td>Canada</td>
-      <td>3</td>
-      <td>0</td>
-      <td>27</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1155</td>
-      <td>2020-03-04</td>
-      <td>Canada</td>
-      <td>3</td>
-      <td>0</td>
-      <td>30</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1156</td>
-      <td>2020-03-05</td>
-      <td>Canada</td>
-      <td>3</td>
-      <td>0</td>
-      <td>33</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1157</td>
-      <td>2020-03-06</td>
-      <td>Canada</td>
-      <td>12</td>
-      <td>0</td>
-      <td>45</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1158</td>
-      <td>2020-03-07</td>
-      <td>Canada</td>
-      <td>6</td>
-      <td>0</td>
-      <td>51</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1159</td>
-      <td>2020-03-08</td>
-      <td>Canada</td>
-      <td>6</td>
-      <td>0</td>
-      <td>57</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1160</td>
-      <td>2020-03-09</td>
-      <td>Canada</td>
-      <td>5</td>
-      <td>0</td>
-      <td>62</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1161</td>
-      <td>2020-03-10</td>
-      <td>Canada</td>
-      <td>15</td>
-      <td>1</td>
-      <td>77</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1162</td>
-      <td>2020-03-11</td>
-      <td>Canada</td>
-      <td>16</td>
-      <td>0</td>
-      <td>93</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1163</td>
-      <td>2020-03-12</td>
-      <td>Canada</td>
-      <td>10</td>
-      <td>0</td>
-      <td>103</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1164</td>
-      <td>2020-03-13</td>
-      <td>Canada</td>
-      <td>35</td>
-      <td>0</td>
-      <td>138</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1165</td>
-      <td>2020-03-14</td>
-      <td>Canada</td>
-      <td>38</td>
-      <td>0</td>
-      <td>176</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1166</td>
-      <td>2020-03-15</td>
-      <td>Canada</td>
-      <td>68</td>
-      <td>0</td>
-      <td>244</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1167</td>
+      <td>6589</td>
       <td>2020-03-16</td>
-      <td>Canada</td>
-      <td>60</td>
-      <td>0</td>
-      <td>304</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>1168</td>
-      <td>2020-03-17</td>
-      <td>Canada</td>
-      <td>120</td>
-      <td>3</td>
-      <td>424</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1169</td>
-      <td>2020-03-18</td>
-      <td>Canada</td>
-      <td>145</td>
-      <td>4</td>
-      <td>569</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>1170</td>
-      <td>2020-03-19</td>
-      <td>Canada</td>
-      <td>121</td>
-      <td>1</td>
-      <td>690</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <td>1171</td>
-      <td>2020-03-20</td>
-      <td>Canada</td>
-      <td>156</td>
-      <td>1</td>
-      <td>846</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>1172</td>
-      <td>2020-03-21</td>
-      <td>Canada</td>
-      <td>125</td>
-      <td>2</td>
-      <td>971</td>
+      <td>United States</td>
+      <td>823</td>
       <td>12</td>
+      <td>3774</td>
+      <td>69</td>
     </tr>
     <tr>
-      <td>1173</td>
-      <td>2020-03-22</td>
-      <td>Canada</td>
+      <td>6590</td>
+      <td>2020-03-17</td>
+      <td>United States</td>
+      <td>887</td>
+      <td>16</td>
+      <td>4661</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>6591</td>
+      <td>2020-03-18</td>
+      <td>United States</td>
+      <td>1766</td>
+      <td>23</td>
+      <td>6427</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <td>6592</td>
+      <td>2020-03-19</td>
+      <td>United States</td>
+      <td>2988</td>
+      <td>42</td>
+      <td>9415</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>6593</td>
+      <td>2020-03-20</td>
+      <td>United States</td>
+      <td>4835</td>
+      <td>0</td>
+      <td>14250</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>6594</td>
+      <td>2020-03-21</td>
+      <td>United States</td>
+      <td>5374</td>
+      <td>110</td>
+      <td>19624</td>
       <td>260</td>
-      <td>1</td>
-      <td>1231</td>
-      <td>13</td>
     </tr>
     <tr>
-      <td>1174</td>
+      <td>6595</td>
+      <td>2020-03-22</td>
+      <td>United States</td>
+      <td>7123</td>
+      <td>80</td>
+      <td>26747</td>
+      <td>340</td>
+    </tr>
+    <tr>
+      <td>6596</td>
       <td>2020-03-23</td>
-      <td>Canada</td>
-      <td>199</td>
-      <td>5</td>
-      <td>1430</td>
-      <td>18</td>
+      <td>United States</td>
+      <td>8459</td>
+      <td>131</td>
+      <td>35206</td>
+      <td>471</td>
     </tr>
     <tr>
-      <td>1175</td>
+      <td>6597</td>
       <td>2020-03-24</td>
-      <td>Canada</td>
-      <td>216</td>
-      <td>6</td>
-      <td>1646</td>
-      <td>24</td>
+      <td>United States</td>
+      <td>11236</td>
+      <td>119</td>
+      <td>46442</td>
+      <td>590</td>
     </tr>
     <tr>
-      <td>1176</td>
+      <td>6598</td>
       <td>2020-03-25</td>
-      <td>Canada</td>
-      <td>313</td>
-      <td>3</td>
-      <td>1959</td>
-      <td>27</td>
+      <td>United States</td>
+      <td>8789</td>
+      <td>211</td>
+      <td>55231</td>
+      <td>801</td>
     </tr>
   </tbody>
 </table>
